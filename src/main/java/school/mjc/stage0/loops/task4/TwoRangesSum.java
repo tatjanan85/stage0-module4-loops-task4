@@ -20,8 +20,4 @@ public class TwoRangesSum {
             System.out.println("counted sum is " + sum);
         }
     }
-
-    public static void main(String[] args) {
-        new TwoRangesSum().printSumOfTwoRanges(10, 10);
-    }
 }
