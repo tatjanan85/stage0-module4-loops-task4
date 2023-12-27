@@ -10,7 +10,7 @@ public class TwoRangesSum {
             int sum = 0;
             int skipped = 0;
             for (int i = 0; i <= lastInRow; i++) {
-                if (i == numberToSkip) {
+                if (i % numberToSkip == 0) {
                     skipped += i;
                     continue;
                 }
